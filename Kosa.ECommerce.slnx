@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Kosa.ECommerce.Application/Kosa.ECommerce.Application.csproj" />
+    <Project Path="src/Kosa.ECommerce.Infrastructure/Kosa.ECommerce.Infrastructure.csproj" />
+    <Project Path="src/Kosa.ECommerce.Persistence/Kosa.ECommerce.Persistence.csproj" />
+    <Project Path="src/Kosa.ECommerce.Server/Kosa.ECommerce.Server.csproj" />
+    <Project Path="src/Kosa.ECommerce.Shared/Kosa.ECommerce.Shared.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Kosa.ECommerce.Tests/Kosa.ECommerce.Tests.csproj" />
+  </Folder>
+</Solution>

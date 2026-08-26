@@ -1,0 +1,17 @@
+D:\backend\src\Kosa.ECommerce.Persistence\bin\Debug\net10.0\Kosa.ECommerce.Persistence.deps.json
+D:\backend\src\Kosa.ECommerce.Persistence\bin\Debug\net10.0\Kosa.ECommerce.Persistence.runtimeconfig.json
+D:\backend\src\Kosa.ECommerce.Persistence\bin\Debug\net10.0\Kosa.ECommerce.Persistence.dll
+D:\backend\src\Kosa.ECommerce.Persistence\bin\Debug\net10.0\Kosa.ECommerce.Persistence.pdb
+D:\backend\src\Kosa.ECommerce.Persistence\bin\Debug\net10.0\Kosa.ECommerce.Shared.dll
+D:\backend\src\Kosa.ECommerce.Persistence\bin\Debug\net10.0\Kosa.ECommerce.Shared.pdb
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\Kosa.ECommerce.Persistence.csproj.AssemblyReference.cache
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\Kosa.ECommerce.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\Kosa.ECommerce.Persistence.AssemblyInfoInputs.cache
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\Kosa.ECommerce.Persistence.AssemblyInfo.cs
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\Kosa.ECommerce.Persistence.csproj.CoreCompileInputs.cache
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\Kosa.ECo.4A48BF33.Up2Date
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\Kosa.ECommerce.Persistence.dll
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\refint\Kosa.ECommerce.Persistence.dll
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\Kosa.ECommerce.Persistence.pdb
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\Kosa.ECommerce.Persistence.genruntimeconfig.cache
+D:\backend\src\Kosa.ECommerce.Persistence\obj\Debug\net10.0\ref\Kosa.ECommerce.Persistence.dll

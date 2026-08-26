@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D40F33B4-FE1F-C67E-A7E8-9108D5AF2D68}|src\\Kosa.ECommerce.Server\\Kosa.ECommerce.Server.csproj|d:\\backend\\src\\kosa.ecommerce.server\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40F33B4-FE1F-C67E-A7E8-9108D5AF2D68}|src\\Kosa.ECommerce.Server\\Kosa.ECommerce.Server.csproj|solutionrelative:src\\kosa.ecommerce.server\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D40F33B4-FE1F-C67E-A7E8-9108D5AF2D68}|src\\Kosa.ECommerce.Server\\Kosa.ECommerce.Server.csproj|d:\\backend\\src\\kosa.ecommerce.server\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D40F33B4-FE1F-C67E-A7E8-9108D5AF2D68}|src\\Kosa.ECommerce.Server\\Kosa.ECommerce.Server.csproj|solutionrelative:src\\kosa.ecommerce.server\\controllers\\promotionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{886CE28F-E57C-C1BB-3343-A96DCB95168F}|src\\Kosa.ECommerce.Application\\Kosa.ECommerce.Application.csproj|d:\\backend\\src\\kosa.ecommerce.application\\services\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{886CE28F-E57C-C1BB-3343-A96DCB95168F}|src\\Kosa.ECommerce.Application\\Kosa.ECommerce.Application.csproj|solutionrelative:src\\kosa.ecommerce.application\\services\\promotionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PromotionsController.cs",
+              "DocumentMoniker": "D:\\backend\\src\\Kosa.ECommerce.Server\\Controllers\\PromotionsController.cs",
+              "RelativeDocumentMoniker": "src\\Kosa.ECommerce.Server\\Controllers\\PromotionsController.cs",
+              "ToolTip": "D:\\backend\\src\\Kosa.ECommerce.Server\\Controllers\\PromotionsController.cs",
+              "RelativeToolTip": "src\\Kosa.ECommerce.Server\\Controllers\\PromotionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T02:52:11.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PromotionService.cs",
+              "DocumentMoniker": "D:\\backend\\src\\Kosa.ECommerce.Application\\Services\\PromotionService.cs",
+              "RelativeDocumentMoniker": "src\\Kosa.ECommerce.Application\\Services\\PromotionService.cs",
+              "ToolTip": "D:\\backend\\src\\Kosa.ECommerce.Application\\Services\\PromotionService.cs",
+              "RelativeToolTip": "src\\Kosa.ECommerce.Application\\Services\\PromotionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T02:51:58.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\backend\\src\\Kosa.ECommerce.Server\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\Kosa.ECommerce.Server\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "D:\\backend\\src\\Kosa.ECommerce.Server\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "src\\Kosa.ECommerce.Server\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-26T02:46:35.481Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
