@@ -96,7 +96,7 @@ public sealed class OrderService : IOrderService
         {
             UserId = request.UserId,
             AddressId = request.AddressId,
-            OrderNumber = $"KOSA-{DateTime.UtcNow:yyMMdd}{Random.Shared.Next(100):D2}",
+            OrderNumber = $"KOSA-{DateTime.UtcNow:yyyyMMddHHmmssfff}{Random.Shared.Next(1000)}",
             OrderDate = now,
             SubTotal = subTotal,
             DeliveryFee = request.DeliveryFee,

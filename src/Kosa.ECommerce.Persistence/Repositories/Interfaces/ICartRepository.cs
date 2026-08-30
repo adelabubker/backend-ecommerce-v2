@@ -5,5 +5,9 @@ namespace Kosa.ECommerce.Persistence.Abstractions.Repositories;
 
 public interface ICartRepository : IGenericRepository<Cart>
 {
-    Task<Cart?> GetActiveCartByUserIdAsync(int userId, CancellationToken cancellationToken = default);
+    Task<Cart?> GetActiveCartByUserIdAsync(
+        int userId,
+        CancellationToken cancellationToken = default);
+
+    void DeleteCartItem(CartItem item);
 }

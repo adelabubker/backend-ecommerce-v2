@@ -11,15 +11,28 @@ public sealed class CategoryService : ICategoryService
     private readonly ICategoryRepository _categoryRepository;
     private readonly IMapper _mapper;
 
-    public CategoryService(ICategoryRepository categoryRepository, IMapper mapper)
+    public CategoryService(
+        ICategoryRepository categoryRepository,
+        IMapper mapper)
     {
         _categoryRepository = categoryRepository;
         _mapper = mapper;
     }
 
-    public async Task<Result<IReadOnlyList<CategoryDto>>> GetCategoriesAsync(CancellationToken cancellationToken = default)
+    public async Task<Result<IReadOnlyList<CategoryDto>>> GetCategoriesAsync(
+        CancellationToken cancellationToken = default)
     {
-        var categories = await _categoryRepository.GetActiveCategoriesAsync(cancellationToken);
-        return Result<IReadOnlyList<CategoryDto>>.Ok(_mapper.Map<IReadOnlyList<CategoryDto>>(categories));
+        try
+        {
+            var categories = await _categoryRepository
+                .GetActiveCategoriesAsync(cancellationToken);
+
+            return Result<IReadOnlyList<CategoryDto>>.Ok(
+                _mapper.Map<IReadOnlyList<CategoryDto>>(categories));
+        }
+        catch
+        {
+            throw;
+        }
     }
 }

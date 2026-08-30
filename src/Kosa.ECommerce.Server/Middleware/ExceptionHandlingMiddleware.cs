@@ -30,12 +30,15 @@ public sealed class ExceptionHandlingMiddleware
                 "Request cancelled by client: {Method} {Path}",
                 context.Request.Method,
                 context.Request.Path);
-
-            // Don't try to write a response because the client
-            // has already cancelled the request.
         }
         catch (ValidationException ex)
         {
+            _logger.LogWarning(
+                ex,
+                "Validation error for {Method} {Path}",
+                context.Request.Method,
+                context.Request.Path);
+
             await WriteProblemAsync(
                 context,
                 HttpStatusCode.BadRequest,
@@ -44,6 +47,12 @@ public sealed class ExceptionHandlingMiddleware
         }
         catch (NotFoundException ex)
         {
+            _logger.LogWarning(
+                ex,
+                "Resource not found for {Method} {Path}",
+                context.Request.Method,
+                context.Request.Path);
+
             await WriteProblemAsync(
                 context,
                 HttpStatusCode.NotFound,
@@ -52,14 +61,40 @@ public sealed class ExceptionHandlingMiddleware
         }
         catch (UnauthorizedException ex)
         {
+            _logger.LogWarning(
+                ex,
+                "Unauthorized request for {Method} {Path}",
+                context.Request.Method,
+                context.Request.Path);
+
             await WriteProblemAsync(
                 context,
                 HttpStatusCode.Unauthorized,
                 "Unauthorized",
                 ex.Message);
         }
+        catch (UnauthorizedAccessException ex)
+        {
+            _logger.LogWarning(
+                ex,
+                "Unauthorized access attempt for {Method} {Path}",
+                context.Request.Method,
+                context.Request.Path);
+
+            await WriteProblemAsync(
+                context,
+                HttpStatusCode.Unauthorized,
+                "Unauthorized",
+                "You are not authorized to perform this action.");
+        }
         catch (ConflictException ex)
         {
+            _logger.LogWarning(
+                ex,
+                "Conflict occurred for {Method} {Path}",
+                context.Request.Method,
+                context.Request.Path);
+
             await WriteProblemAsync(
                 context,
                 HttpStatusCode.Conflict,
@@ -108,3 +143,4 @@ public sealed class ExceptionHandlingMiddleware
         await context.Response.WriteAsJsonAsync(problem);
     }
 }
+

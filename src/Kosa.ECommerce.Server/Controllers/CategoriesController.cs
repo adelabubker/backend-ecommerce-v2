@@ -8,16 +8,25 @@ namespace Kosa.ECommerce.Server.Controllers;
 public sealed class CategoriesController : ControllerBase
 {
     private readonly ICategoryService _categoryService;
+    private readonly ILogger<CategoriesController> _logger;
 
-    public CategoriesController(ICategoryService categoryService)
+    public CategoriesController(
+        ICategoryService categoryService,
+        ILogger<CategoriesController> logger)
     {
         _categoryService = categoryService;
+        _logger = logger;
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetCategories(CancellationToken cancellationToken)
+    public async Task<IActionResult> GetCategories(
+        CancellationToken cancellationToken)
     {
-        var result = await _categoryService.GetCategoriesAsync(cancellationToken);
+        _logger.LogInformation("Getting all active categories.");
+
+        var result = await _categoryService.GetCategoriesAsync(
+            cancellationToken);
+
         return Ok(result);
     }
 }
