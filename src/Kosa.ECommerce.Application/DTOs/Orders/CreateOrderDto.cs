@@ -13,9 +13,5 @@ public sealed class CreateOrderDto
     [Required, MaxLength(50)]
     public string PaymentMethod { get; init; } = "Cash";
 
-    [Range(0, 100000)]
-    public decimal DeliveryFee { get; init; }
-
-    [Range(0, 100000)]
-    public decimal PackagingFee { get; init; }
+    
 }
